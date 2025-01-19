@@ -10,6 +10,8 @@ There are three main .ipynb files that perform ingestion, preprocessing, predict
 - [Predictions](./Predictions/Predictions.ipynb)
 - [Visualization](./Visualization/Visualization.ipynb)
 
+_**Note:** To see the full codes you should clone the repository and open it in a code editor as github redacted final lines in the preview._
+
 In addition to those, there are also two Flask servers that act as "time simulators" ([processed](./Visualization/server.py) and [predicted](./Visualization/prediction_server.py)) . Those servers are used in the Node-RED flow (see the [json flow](./Visualization/node-red-json-flow.json)) for real time visualization of processed data and for comparison of processed and predicted datasets.
 
 ### Created by Maj Rakovec, Titouan Andre, Gauthier Patard
