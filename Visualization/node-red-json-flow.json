@@ -1,0 +1,1674 @@
+[
+    {
+        "id": "0ba6213ea7df46b0",
+        "type": "tab",
+        "label": "Real Data",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "977bd9e3d8d59482",
+        "type": "tab",
+        "label": "Predicted",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "4",
+        "type": "ui_group",
+        "name": "Chart Group",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "12",
+        "collapse": false
+    },
+    {
+        "id": "c8fb6b8ca1c7b6ca",
+        "type": "ui_tab",
+        "name": "Real Time Data",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "0e6af3bf280cdef2",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "c64e01a352561842",
+        "type": "ui_tab",
+        "name": "Predicted",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "6179f83d53ba0d72",
+        "type": "ui_group",
+        "name": "Data",
+        "tab": "c8fb6b8ca1c7b6ca",
+        "order": 1,
+        "disp": true,
+        "width": 20,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "89749fb7.87f01",
+        "type": "ui_group",
+        "name": "Charts",
+        "tab": "",
+        "order": 2,
+        "disp": false,
+        "width": "6"
+    },
+    {
+        "id": "ab397e95.29ebe",
+        "type": "ui_group",
+        "name": "Inputs",
+        "tab": "",
+        "order": 1,
+        "disp": false,
+        "width": "6"
+    },
+    {
+        "id": "4e7edda4.417004",
+        "type": "ui_group",
+        "name": "Group 3",
+        "tab": "",
+        "order": 3,
+        "disp": false,
+        "width": "6"
+    },
+    {
+        "id": "ae0413d2.d9b4d",
+        "type": "ui_group",
+        "name": "Dashboard",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "4",
+        "collapse": false
+    },
+    {
+        "id": "ef860366.cd032",
+        "type": "ui_group",
+        "name": "Charts",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "881ee563.ffb7f8",
+        "type": "ui_group",
+        "name": "Chart Scaling",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "3",
+        "collapse": true
+    },
+    {
+        "id": "aa3084a8a3baa6ae",
+        "type": "ui_group",
+        "name": "Data",
+        "tab": "c64e01a352561842",
+        "order": 1,
+        "disp": true,
+        "width": 20,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b8e07a089af90dad",
+        "type": "http request",
+        "z": "0ba6213ea7df46b0",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://127.0.0.1:5577/data",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 290,
+        "y": 140,
+        "wires": [
+            [
+                "cc3af6c176116a61",
+                "38f904176b48a0db",
+                "52c6c5f05ec014e3",
+                "1fc967918846bf08",
+                "48080cd0a2e31e5d",
+                "b1ce10f37303159c",
+                "84756628ebabdaec",
+                "e2da47d330518122",
+                "a226218a6386129f",
+                "11cadf40ccbb8bd2",
+                "5527936c7d0e3e64",
+                "f028f426a5e7b16f",
+                "28a6c2d82c99cfcb"
+            ]
+        ]
+    },
+    {
+        "id": "cec33facf181c95a",
+        "type": "inject",
+        "z": "0ba6213ea7df46b0",
+        "d": true,
+        "name": "",
+        "props": [],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "x": 110,
+        "y": 140,
+        "wires": [
+            [
+                "b8e07a089af90dad",
+                "2f429155bf16356c"
+            ]
+        ]
+    },
+    {
+        "id": "cc3af6c176116a61",
+        "type": "function",
+        "z": "0ba6213ea7df46b0",
+        "name": "Temperature",
+        "func": "let result = [];\n\nfunction getUnix(date, time) {\n\n    const [month, day, year] = date.split('/').map(num => parseInt(num, 10));\n\n    // Split the time into its components (HH:MM:SS)\n    const [hours, minutes, seconds] = time.split(':').map(num => parseInt(num, 10));\n\n    // Use Date.UTC to create a Date object in UTC based on the date and time components\n    const dateObject = new Date(Date.UTC(year, day - 1, month, hours, minutes, seconds));\n\n    // Get the Unix timestamp (in seconds)\n    // return Math.floor(dateObject.getTime() / 1000);\n    return dateObject.getTime();\n}\n\nmsg.payload.forEach(item => {\n    item.Time = item.Time.replace(\".\", \":\")\n    item.Time = item.Time.replace(\".\", \":\")\n    var time = getUnix(item.Date, item.Time)\n    let filteredItem = {\n        T: parseFloat(item.T),\n        Time: time\n    };\n    result.push(filteredItem);\n});\n\nmsg.payload = result; \nconsole.log(result)\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 300,
+        "wires": [
+            [
+                "76801128db92b87c"
+            ]
+        ]
+    },
+    {
+        "id": "eaab31cc69467f06",
+        "type": "ui_chart",
+        "z": "0ba6213ea7df46b0",
+        "name": "",
+        "group": "6179f83d53ba0d72",
+        "order": 2,
+        "width": "9",
+        "height": "4",
+        "label": "Temperature",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "YYYY-MM-DD HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "No data available",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "30",
+        "removeOlder": "4",
+        "removeOlderPoints": "96",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 650,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "76801128db92b87c",
+        "type": "function",
+        "z": "0ba6213ea7df46b0",
+        "name": "function 3",
+        "func": "const inp = msg.payload;\n\nvar outObj = [{\n    \"series\": [\"Values\"],\n    \"data\": [[]],\n    \"lables\": [\"\"]\n}];\n\n// fill chart object with data\nfor(let item of inp) {\n    outObj[0].data[0].push({\n        x: item.Time,\n        y: item.T\n    })\n}\n\nmsg.payload = outObj;\n\nreturn msg;\n\n\n\n\n// var chart = [{\n//     \"series\":[\"A\",\"B\",\"C\"],\n//     \"data\": [\n//         [{ \"x\": 1504029632890, \"y\": 5 },\n//         { \"x\": 1504029636001, \"y\": 4 },\n//         { \"x\": 1504029638656, \"y\": 2 }\n//         ],\n//         [{ \"x\": 1504029633514, \"y\": 6 },\n//         { \"x\": 1504029636622, \"y\": 7 },\n//         { \"x\": 1504029639539, \"y\": 6 }\n//         ],\n//         [{ \"x\": 1504029634400, \"y\": 7 },\n//         { \"x\": 1504029637959, \"y\": 7 },\n//         { \"x\": 1504029640317, \"y\": 7 }\n//         ]\n//     ],\n//     \"labels\":[\"\"]\n// }];\n// msg.payload = chart;\n\n// return msg;\n\n\n// var chart = [{\n//     \"series\":[\"Values\"],\n//     \"data\": [\n//         [{ \"x\": 1078970400000, \"y\": 11.2 },\n//         { \"x\": 1078977600000, \"y\": 11 }\n//         ]\n//     ],\n//     \"labels\":[\"\"]\n// }];\n// msg.payload = chart;\n\n// return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 300,
+        "wires": [
+            [
+                "eaab31cc69467f06"
+            ]
+        ]
+    },
+    {
+        "id": "52c6c5f05ec014e3",
+        "type": "function",
+        "z": "0ba6213ea7df46b0",
+        "name": "CO(GT)",
+        "func": "let result = [];\n\nfunction getUnix(date, time) {\n\n    const [month, day, year] = date.split('/').map(num => parseInt(num, 10));\n\n    // Split the time into its components (HH:MM:SS)\n    const [hours, minutes, seconds] = time.split(':').map(num => parseInt(num, 10));\n\n    // Use Date.UTC to create a Date object in UTC based on the date and time components\n    const dateObject = new Date(Date.UTC(year, day - 1, month, hours, minutes, seconds));\n\n    // Get the Unix timestamp (in seconds)\n    // return Math.floor(dateObject.getTime() / 1000);\n    return dateObject.getTime();\n}\n\nmsg.payload.forEach(item => {\n    item.Time = item.Time.replace(\".\", \":\")\n    item.Time = item.Time.replace(\".\", \":\")\n    var time = getUnix(item.Date, item.Time)\n    let filteredItem = {\n        COGT: parseFloat(item[\"CO(GT)\"]),\n        Time: time\n    };\n    result.push(filteredItem);\n});\n\nmsg.payload = result; \nconsole.log(result)\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 340,
+        "wires": [
+            [
+                "d56dc3b8b585c65a"
+            ]
+        ]
+    },
+    {
+        "id": "38f904176b48a0db",
+        "type": "function",
+        "z": "0ba6213ea7df46b0",
+        "name": "PT08.S1(CO)",
+        "func": "let result = [];\n\nfunction getUnix(date, time) {\n\n    const [month, day, year] = date.split('/').map(num => parseInt(num, 10));\n\n    // Split the time into its components (HH:MM:SS)\n    const [hours, minutes, seconds] = time.split(':').map(num => parseInt(num, 10));\n\n    // Use Date.UTC to create a Date object in UTC based on the date and time components\n    const dateObject = new Date(Date.UTC(year, day - 1, month, hours, minutes, seconds));\n\n    // Get the Unix timestamp (in seconds)\n    // return Math.floor(dateObject.getTime() / 1000);\n    return dateObject.getTime();\n}\n\nmsg.payload.forEach(item => {\n    item.Time = item.Time.replace(\".\", \":\")\n    item.Time = item.Time.replace(\".\", \":\")\n    var time = getUnix(item.Date, item.Time)\n    let filteredItem = {\n        PT08S1CO: parseFloat(item[\"PT08.S1(CO)\"]),\n        Time: time\n    };\n    result.push(filteredItem);\n});\n\nmsg.payload = result; \nconsole.log(result)\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 380,
+        "wires": [
+            [
+                "85c9a5f7df39df27"
+            ]
+        ]
+    },
+    {
+        "id": "1fc967918846bf08",
+        "type": "function",
+        "z": "0ba6213ea7df46b0",
+        "name": "NMHC(GT)",
+        "func": "let result = [];\n\nfunction getUnix(date, time) {\n\n    const [month, day, year] = date.split('/').map(num => parseInt(num, 10));\n\n    // Split the time into its components (HH:MM:SS)\n    const [hours, minutes, seconds] = time.split(':').map(num => parseInt(num, 10));\n\n    // Use Date.UTC to create a Date object in UTC based on the date and time components\n    const dateObject = new Date(Date.UTC(year, day - 1, month, hours, minutes, seconds));\n\n    // Get the Unix timestamp (in seconds)\n    // return Math.floor(dateObject.getTime() / 1000);\n    return dateObject.getTime();\n}\n\nmsg.payload.forEach(item => {\n    item.Time = item.Time.replace(\".\", \":\")\n    item.Time = item.Time.replace(\".\", \":\")\n    var time = getUnix(item.Date, item.Time)\n    let filteredItem = {\n        NMHCGT: parseFloat(item[\"NMHC(GT)\"]),\n        Time: time\n    };\n    result.push(filteredItem);\n});\n\nmsg.payload = result; \nconsole.log(result)\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 420,
+        "wires": [
+            [
+                "f6578f3b43098bef"
+            ]
+        ]
+    },
+    {
+        "id": "48080cd0a2e31e5d",
+        "type": "function",
+        "z": "0ba6213ea7df46b0",
+        "name": "C6H6(GT)",
+        "func": "let result = [];\n\nfunction getUnix(date, time) {\n\n    const [month, day, year] = date.split('/').map(num => parseInt(num, 10));\n\n    // Split the time into its components (HH:MM:SS)\n    const [hours, minutes, seconds] = time.split(':').map(num => parseInt(num, 10));\n\n    // Use Date.UTC to create a Date object in UTC based on the date and time components\n    const dateObject = new Date(Date.UTC(year, day - 1, month, hours, minutes, seconds));\n\n    // Get the Unix timestamp (in seconds)\n    // return Math.floor(dateObject.getTime() / 1000);\n    return dateObject.getTime();\n}\n\nmsg.payload.forEach(item => {\n    item.Time = item.Time.replace(\".\", \":\")\n    item.Time = item.Time.replace(\".\", \":\")\n    var time = getUnix(item.Date, item.Time)\n    let filteredItem = {\n        C6H6GT: parseFloat(item[\"C6H6(GT)\"]),\n        Time: time\n    };\n    result.push(filteredItem);\n});\n\nmsg.payload = result; \nconsole.log(result)\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 460,
+        "wires": [
+            [
+                "66c1fd06e229fef4"
+            ]
+        ]
+    },
+    {
+        "id": "b1ce10f37303159c",
+        "type": "function",
+        "z": "0ba6213ea7df46b0",
+        "name": "PT08.S2(NMHC)",
+        "func": "let result = [];\n\nfunction getUnix(date, time) {\n\n    const [month, day, year] = date.split('/').map(num => parseInt(num, 10));\n\n    // Split the time into its components (HH:MM:SS)\n    const [hours, minutes, seconds] = time.split(':').map(num => parseInt(num, 10));\n\n    // Use Date.UTC to create a Date object in UTC based on the date and time components\n    const dateObject = new Date(Date.UTC(year, day - 1, month, hours, minutes, seconds));\n\n    // Get the Unix timestamp (in seconds)\n    // return Math.floor(dateObject.getTime() / 1000);\n    return dateObject.getTime();\n}\n\nmsg.payload.forEach(item => {\n    item.Time = item.Time.replace(\".\", \":\")\n    item.Time = item.Time.replace(\".\", \":\")\n    var time = getUnix(item.Date, item.Time)\n    let filteredItem = {\n        PT08S2NMHC: parseFloat(item[\"PT08.S2(NMHC)\"]),\n        Time: time\n    };\n    result.push(filteredItem);\n});\n\nmsg.payload = result; \nconsole.log(result)\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 500,
+        "wires": [
+            [
+                "16ca44a6f75fb5fe"
+            ]
+        ]
+    },
+    {
+        "id": "84756628ebabdaec",
+        "type": "function",
+        "z": "0ba6213ea7df46b0",
+        "name": "NOx(GT)",
+        "func": "let result = [];\n\nfunction getUnix(date, time) {\n\n    const [month, day, year] = date.split('/').map(num => parseInt(num, 10));\n\n    // Split the time into its components (HH:MM:SS)\n    const [hours, minutes, seconds] = time.split(':').map(num => parseInt(num, 10));\n\n    // Use Date.UTC to create a Date object in UTC based on the date and time components\n    const dateObject = new Date(Date.UTC(year, day - 1, month, hours, minutes, seconds));\n\n    // Get the Unix timestamp (in seconds)\n    // return Math.floor(dateObject.getTime() / 1000);\n    return dateObject.getTime();\n}\n\nmsg.payload.forEach(item => {\n    item.Time = item.Time.replace(\".\", \":\")\n    item.Time = item.Time.replace(\".\", \":\")\n    var time = getUnix(item.Date, item.Time)\n    let filteredItem = {\n        NOxGT: parseFloat(item[\"NOx(GT)\"]),\n        Time: time\n    };\n    result.push(filteredItem);\n});\n\nmsg.payload = result; \nconsole.log(result)\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 540,
+        "wires": [
+            [
+                "72e9cfa4ede5736a"
+            ]
+        ]
+    },
+    {
+        "id": "e2da47d330518122",
+        "type": "function",
+        "z": "0ba6213ea7df46b0",
+        "name": "PT08.S3(NOx)",
+        "func": "let result = [];\n\nfunction getUnix(date, time) {\n\n    const [month, day, year] = date.split('/').map(num => parseInt(num, 10));\n\n    // Split the time into its components (HH:MM:SS)\n    const [hours, minutes, seconds] = time.split(':').map(num => parseInt(num, 10));\n\n    // Use Date.UTC to create a Date object in UTC based on the date and time components\n    const dateObject = new Date(Date.UTC(year, day - 1, month, hours, minutes, seconds));\n\n    // Get the Unix timestamp (in seconds)\n    // return Math.floor(dateObject.getTime() / 1000);\n    return dateObject.getTime();\n}\n\nmsg.payload.forEach(item => {\n    item.Time = item.Time.replace(\".\", \":\")\n    item.Time = item.Time.replace(\".\", \":\")\n    var time = getUnix(item.Date, item.Time)\n    let filteredItem = {\n        PT08S3NOx: parseFloat(item[\"PT08.S3(NOx)\"]),\n        Time: time\n    };\n    result.push(filteredItem);\n});\n\nmsg.payload = result; \nconsole.log(result)\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 580,
+        "wires": [
+            [
+                "1a870a05972676a5"
+            ]
+        ]
+    },
+    {
+        "id": "a226218a6386129f",
+        "type": "function",
+        "z": "0ba6213ea7df46b0",
+        "name": "NO2(GT)",
+        "func": "let result = [];\n\nfunction getUnix(date, time) {\n\n    const [month, day, year] = date.split('/').map(num => parseInt(num, 10));\n\n    // Split the time into its components (HH:MM:SS)\n    const [hours, minutes, seconds] = time.split(':').map(num => parseInt(num, 10));\n\n    // Use Date.UTC to create a Date object in UTC based on the date and time components\n    const dateObject = new Date(Date.UTC(year, day - 1, month, hours, minutes, seconds));\n\n    // Get the Unix timestamp (in seconds)\n    // return Math.floor(dateObject.getTime() / 1000);\n    return dateObject.getTime();\n}\n\nmsg.payload.forEach(item => {\n    item.Time = item.Time.replace(\".\", \":\")\n    item.Time = item.Time.replace(\".\", \":\")\n    var time = getUnix(item.Date, item.Time)\n    let filteredItem = {\n        NO2GT: parseFloat(item[\"NO2(GT)\"]),\n        Time: time\n    };\n    result.push(filteredItem);\n});\n\nmsg.payload = result; \nconsole.log(result)\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 620,
+        "wires": [
+            [
+                "41b2fd5f8a43fc71"
+            ]
+        ]
+    },
+    {
+        "id": "11cadf40ccbb8bd2",
+        "type": "function",
+        "z": "0ba6213ea7df46b0",
+        "name": "PT08.S4(NO2)",
+        "func": "let result = [];\n\nfunction getUnix(date, time) {\n\n    const [month, day, year] = date.split('/').map(num => parseInt(num, 10));\n\n    // Split the time into its components (HH:MM:SS)\n    const [hours, minutes, seconds] = time.split(':').map(num => parseInt(num, 10));\n\n    // Use Date.UTC to create a Date object in UTC based on the date and time components\n    const dateObject = new Date(Date.UTC(year, day - 1, month, hours, minutes, seconds));\n\n    // Get the Unix timestamp (in seconds)\n    // return Math.floor(dateObject.getTime() / 1000);\n    return dateObject.getTime();\n}\n\nmsg.payload.forEach(item => {\n    item.Time = item.Time.replace(\".\", \":\")\n    item.Time = item.Time.replace(\".\", \":\")\n    var time = getUnix(item.Date, item.Time)\n    let filteredItem = {\n        PT08S4NO2: parseFloat(item[\"PT08.S4(NO2)\"]),\n        Time: time\n    };\n    result.push(filteredItem);\n});\n\nmsg.payload = result; \nconsole.log(result)\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 660,
+        "wires": [
+            [
+                "4f292559b470e002"
+            ]
+        ]
+    },
+    {
+        "id": "5527936c7d0e3e64",
+        "type": "function",
+        "z": "0ba6213ea7df46b0",
+        "name": "PT08.S5(O3)",
+        "func": "let result = [];\n\nfunction getUnix(date, time) {\n\n    const [month, day, year] = date.split('/').map(num => parseInt(num, 10));\n\n    // Split the time into its components (HH:MM:SS)\n    const [hours, minutes, seconds] = time.split(':').map(num => parseInt(num, 10));\n\n    // Use Date.UTC to create a Date object in UTC based on the date and time components\n    const dateObject = new Date(Date.UTC(year, day - 1, month, hours, minutes, seconds));\n\n    // Get the Unix timestamp (in seconds)\n    // return Math.floor(dateObject.getTime() / 1000);\n    return dateObject.getTime();\n}\n\nmsg.payload.forEach(item => {\n    item.Time = item.Time.replace(\".\", \":\")\n    item.Time = item.Time.replace(\".\", \":\")\n    var time = getUnix(item.Date, item.Time)\n    let filteredItem = {\n        PT08S5O3: parseFloat(item[\"PT08.S5(O3)\"]),\n        Time: time\n    };\n    result.push(filteredItem);\n});\n\nmsg.payload = result; \nconsole.log(result)\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 700,
+        "wires": [
+            [
+                "369cba2d377a6e96"
+            ]
+        ]
+    },
+    {
+        "id": "f028f426a5e7b16f",
+        "type": "function",
+        "z": "0ba6213ea7df46b0",
+        "name": "RH",
+        "func": "let result = [];\n\nfunction getUnix(date, time) {\n\n    const [month, day, year] = date.split('/').map(num => parseInt(num, 10));\n\n    // Split the time into its components (HH:MM:SS)\n    const [hours, minutes, seconds] = time.split(':').map(num => parseInt(num, 10));\n\n    // Use Date.UTC to create a Date object in UTC based on the date and time components\n    const dateObject = new Date(Date.UTC(year, day - 1, month, hours, minutes, seconds));\n\n    // Get the Unix timestamp (in seconds)\n    // return Math.floor(dateObject.getTime() / 1000);\n    return dateObject.getTime();\n}\n\nmsg.payload.forEach(item => {\n    item.Time = item.Time.replace(\".\", \":\")\n    item.Time = item.Time.replace(\".\", \":\")\n    var time = getUnix(item.Date, item.Time)\n    let filteredItem = {\n        RH: parseFloat(item.RH),\n        Time: time\n    };\n    result.push(filteredItem);\n});\n\nmsg.payload = result; \nconsole.log(result)\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 740,
+        "wires": [
+            [
+                "61741c8925b48861"
+            ]
+        ]
+    },
+    {
+        "id": "85c9a5f7df39df27",
+        "type": "function",
+        "z": "0ba6213ea7df46b0",
+        "name": "function 1",
+        "func": "const inp = msg.payload;\n\nvar outObj = [{\n    \"series\": [\"Values\"],\n    \"data\": [[]],\n    \"lables\": [\"\"]\n}];\n\n// fill chart object with data\nfor(let item of inp) {\n    outObj[0].data[0].push({\n        x: item.Time,\n        y: item.PT08S1CO\n    })\n}\n\nmsg.payload = outObj;\n\nreturn msg;\n\n\n\n\n// var chart = [{\n//     \"series\":[\"A\",\"B\",\"C\"],\n//     \"data\": [\n//         [{ \"x\": 1504029632890, \"y\": 5 },\n//         { \"x\": 1504029636001, \"y\": 4 },\n//         { \"x\": 1504029638656, \"y\": 2 }\n//         ],\n//         [{ \"x\": 1504029633514, \"y\": 6 },\n//         { \"x\": 1504029636622, \"y\": 7 },\n//         { \"x\": 1504029639539, \"y\": 6 }\n//         ],\n//         [{ \"x\": 1504029634400, \"y\": 7 },\n//         { \"x\": 1504029637959, \"y\": 7 },\n//         { \"x\": 1504029640317, \"y\": 7 }\n//         ]\n//     ],\n//     \"labels\":[\"\"]\n// }];\n// msg.payload = chart;\n\n// return msg;\n\n\n// var chart = [{\n//     \"series\":[\"Values\"],\n//     \"data\": [\n//         [{ \"x\": 1078970400000, \"y\": 11.2 },\n//         { \"x\": 1078977600000, \"y\": 11 }\n//         ]\n//     ],\n//     \"labels\":[\"\"]\n// }];\n// msg.payload = chart;\n\n// return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 380,
+        "wires": [
+            [
+                "3463eac004ae945e"
+            ]
+        ]
+    },
+    {
+        "id": "3463eac004ae945e",
+        "type": "ui_chart",
+        "z": "0ba6213ea7df46b0",
+        "name": "",
+        "group": "6179f83d53ba0d72",
+        "order": 4,
+        "width": "9",
+        "height": "4",
+        "label": "PT08.S1(CO)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "YYYY-MM-DD HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "No data available",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "4",
+        "removeOlderPoints": "96",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 650,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d56dc3b8b585c65a",
+        "type": "function",
+        "z": "0ba6213ea7df46b0",
+        "name": "function 12",
+        "func": "const inp = msg.payload;\n\nvar outObj = [{\n    \"series\": [\"Values\"],\n    \"data\": [[]],\n    \"lables\": [\"\"]\n}];\n\n// fill chart object with data\nfor(let item of inp) {\n    outObj[0].data[0].push({\n        x: item.Time,\n        y: item.COGT\n    })\n}\n\nmsg.payload = outObj;\n\nreturn msg;\n\n\n\n\n// var chart = [{\n//     \"series\":[\"A\",\"B\",\"C\"],\n//     \"data\": [\n//         [{ \"x\": 1504029632890, \"y\": 5 },\n//         { \"x\": 1504029636001, \"y\": 4 },\n//         { \"x\": 1504029638656, \"y\": 2 }\n//         ],\n//         [{ \"x\": 1504029633514, \"y\": 6 },\n//         { \"x\": 1504029636622, \"y\": 7 },\n//         { \"x\": 1504029639539, \"y\": 6 }\n//         ],\n//         [{ \"x\": 1504029634400, \"y\": 7 },\n//         { \"x\": 1504029637959, \"y\": 7 },\n//         { \"x\": 1504029640317, \"y\": 7 }\n//         ]\n//     ],\n//     \"labels\":[\"\"]\n// }];\n// msg.payload = chart;\n\n// return msg;\n\n\n// var chart = [{\n//     \"series\":[\"Values\"],\n//     \"data\": [\n//         [{ \"x\": 1078970400000, \"y\": 11.2 },\n//         { \"x\": 1078977600000, \"y\": 11 }\n//         ]\n//     ],\n//     \"labels\":[\"\"]\n// }];\n// msg.payload = chart;\n\n// return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 340,
+        "wires": [
+            [
+                "dc9197839cec2820"
+            ]
+        ]
+    },
+    {
+        "id": "dc9197839cec2820",
+        "type": "ui_chart",
+        "z": "0ba6213ea7df46b0",
+        "name": "",
+        "group": "6179f83d53ba0d72",
+        "order": 3,
+        "width": "9",
+        "height": "4",
+        "label": "CO(GT)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "YYYY-MM-DD HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "No data available",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "30",
+        "removeOlder": "4",
+        "removeOlderPoints": "96",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 640,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f6578f3b43098bef",
+        "type": "function",
+        "z": "0ba6213ea7df46b0",
+        "name": "function 13",
+        "func": "const inp = msg.payload;\n\nvar outObj = [{\n    \"series\": [\"Values\"],\n    \"data\": [[]],\n    \"lables\": [\"\"]\n}];\n\n// fill chart object with data\nfor(let item of inp) {\n    outObj[0].data[0].push({\n        x: item.Time,\n        y: item.NMHCGT\n    })\n}\n\nmsg.payload = outObj;\n\nreturn msg;\n\n\n\n\n// var chart = [{\n//     \"series\":[\"A\",\"B\",\"C\"],\n//     \"data\": [\n//         [{ \"x\": 1504029632890, \"y\": 5 },\n//         { \"x\": 1504029636001, \"y\": 4 },\n//         { \"x\": 1504029638656, \"y\": 2 }\n//         ],\n//         [{ \"x\": 1504029633514, \"y\": 6 },\n//         { \"x\": 1504029636622, \"y\": 7 },\n//         { \"x\": 1504029639539, \"y\": 6 }\n//         ],\n//         [{ \"x\": 1504029634400, \"y\": 7 },\n//         { \"x\": 1504029637959, \"y\": 7 },\n//         { \"x\": 1504029640317, \"y\": 7 }\n//         ]\n//     ],\n//     \"labels\":[\"\"]\n// }];\n// msg.payload = chart;\n\n// return msg;\n\n\n// var chart = [{\n//     \"series\":[\"Values\"],\n//     \"data\": [\n//         [{ \"x\": 1078970400000, \"y\": 11.2 },\n//         { \"x\": 1078977600000, \"y\": 11 }\n//         ]\n//     ],\n//     \"labels\":[\"\"]\n// }];\n// msg.payload = chart;\n\n// return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 420,
+        "wires": [
+            [
+                "18a37b872371db51"
+            ]
+        ]
+    },
+    {
+        "id": "66c1fd06e229fef4",
+        "type": "function",
+        "z": "0ba6213ea7df46b0",
+        "name": "function 14",
+        "func": "const inp = msg.payload;\n\nvar outObj = [{\n    \"series\": [\"Values\"],\n    \"data\": [[]],\n    \"lables\": [\"\"]\n}];\n\n// fill chart object with data\nfor(let item of inp) {\n    outObj[0].data[0].push({\n        x: item.Time,\n        y: item.C6H6GT\n    })\n}\n\nmsg.payload = outObj;\n\nreturn msg;\n\n\n\n\n// var chart = [{\n//     \"series\":[\"A\",\"B\",\"C\"],\n//     \"data\": [\n//         [{ \"x\": 1504029632890, \"y\": 5 },\n//         { \"x\": 1504029636001, \"y\": 4 },\n//         { \"x\": 1504029638656, \"y\": 2 }\n//         ],\n//         [{ \"x\": 1504029633514, \"y\": 6 },\n//         { \"x\": 1504029636622, \"y\": 7 },\n//         { \"x\": 1504029639539, \"y\": 6 }\n//         ],\n//         [{ \"x\": 1504029634400, \"y\": 7 },\n//         { \"x\": 1504029637959, \"y\": 7 },\n//         { \"x\": 1504029640317, \"y\": 7 }\n//         ]\n//     ],\n//     \"labels\":[\"\"]\n// }];\n// msg.payload = chart;\n\n// return msg;\n\n\n// var chart = [{\n//     \"series\":[\"Values\"],\n//     \"data\": [\n//         [{ \"x\": 1078970400000, \"y\": 11.2 },\n//         { \"x\": 1078977600000, \"y\": 11 }\n//         ]\n//     ],\n//     \"labels\":[\"\"]\n// }];\n// msg.payload = chart;\n\n// return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 460,
+        "wires": [
+            [
+                "8d935e89a41d2235"
+            ]
+        ]
+    },
+    {
+        "id": "16ca44a6f75fb5fe",
+        "type": "function",
+        "z": "0ba6213ea7df46b0",
+        "name": "function 15",
+        "func": "const inp = msg.payload;\n\nvar outObj = [{\n    \"series\": [\"Values\"],\n    \"data\": [[]],\n    \"lables\": [\"\"]\n}];\n\n// fill chart object with data\nfor(let item of inp) {\n    outObj[0].data[0].push({\n        x: item.Time,\n        y: item.PT08S2NMHC\n    })\n}\n\nmsg.payload = outObj;\n\nreturn msg;\n\n\n\n\n// var chart = [{\n//     \"series\":[\"A\",\"B\",\"C\"],\n//     \"data\": [\n//         [{ \"x\": 1504029632890, \"y\": 5 },\n//         { \"x\": 1504029636001, \"y\": 4 },\n//         { \"x\": 1504029638656, \"y\": 2 }\n//         ],\n//         [{ \"x\": 1504029633514, \"y\": 6 },\n//         { \"x\": 1504029636622, \"y\": 7 },\n//         { \"x\": 1504029639539, \"y\": 6 }\n//         ],\n//         [{ \"x\": 1504029634400, \"y\": 7 },\n//         { \"x\": 1504029637959, \"y\": 7 },\n//         { \"x\": 1504029640317, \"y\": 7 }\n//         ]\n//     ],\n//     \"labels\":[\"\"]\n// }];\n// msg.payload = chart;\n\n// return msg;\n\n\n// var chart = [{\n//     \"series\":[\"Values\"],\n//     \"data\": [\n//         [{ \"x\": 1078970400000, \"y\": 11.2 },\n//         { \"x\": 1078977600000, \"y\": 11 }\n//         ]\n//     ],\n//     \"labels\":[\"\"]\n// }];\n// msg.payload = chart;\n\n// return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 500,
+        "wires": [
+            [
+                "2a42bba0779b565d"
+            ]
+        ]
+    },
+    {
+        "id": "72e9cfa4ede5736a",
+        "type": "function",
+        "z": "0ba6213ea7df46b0",
+        "name": "function 16",
+        "func": "const inp = msg.payload;\n\nvar outObj = [{\n    \"series\": [\"Values\"],\n    \"data\": [[]],\n    \"lables\": [\"\"]\n}];\n\n// fill chart object with data\nfor(let item of inp) {\n    outObj[0].data[0].push({\n        x: item.Time,\n        y: item.NOxGT\n    })\n}\n\nmsg.payload = outObj;\n\nreturn msg;\n\n\n\n\n// var chart = [{\n//     \"series\":[\"A\",\"B\",\"C\"],\n//     \"data\": [\n//         [{ \"x\": 1504029632890, \"y\": 5 },\n//         { \"x\": 1504029636001, \"y\": 4 },\n//         { \"x\": 1504029638656, \"y\": 2 }\n//         ],\n//         [{ \"x\": 1504029633514, \"y\": 6 },\n//         { \"x\": 1504029636622, \"y\": 7 },\n//         { \"x\": 1504029639539, \"y\": 6 }\n//         ],\n//         [{ \"x\": 1504029634400, \"y\": 7 },\n//         { \"x\": 1504029637959, \"y\": 7 },\n//         { \"x\": 1504029640317, \"y\": 7 }\n//         ]\n//     ],\n//     \"labels\":[\"\"]\n// }];\n// msg.payload = chart;\n\n// return msg;\n\n\n// var chart = [{\n//     \"series\":[\"Values\"],\n//     \"data\": [\n//         [{ \"x\": 1078970400000, \"y\": 11.2 },\n//         { \"x\": 1078977600000, \"y\": 11 }\n//         ]\n//     ],\n//     \"labels\":[\"\"]\n// }];\n// msg.payload = chart;\n\n// return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 540,
+        "wires": [
+            [
+                "a14c210ac12da5fe"
+            ]
+        ]
+    },
+    {
+        "id": "1a870a05972676a5",
+        "type": "function",
+        "z": "0ba6213ea7df46b0",
+        "name": "function 17",
+        "func": "const inp = msg.payload;\n\nvar outObj = [{\n    \"series\": [\"Values\"],\n    \"data\": [[]],\n    \"lables\": [\"\"]\n}];\n\n// fill chart object with data\nfor(let item of inp) {\n    outObj[0].data[0].push({\n        x: item.Time,\n        y: item.PT08S3NOx\n    })\n}\n\nmsg.payload = outObj;\n\nreturn msg;\n\n\n\n\n// var chart = [{\n//     \"series\":[\"A\",\"B\",\"C\"],\n//     \"data\": [\n//         [{ \"x\": 1504029632890, \"y\": 5 },\n//         { \"x\": 1504029636001, \"y\": 4 },\n//         { \"x\": 1504029638656, \"y\": 2 }\n//         ],\n//         [{ \"x\": 1504029633514, \"y\": 6 },\n//         { \"x\": 1504029636622, \"y\": 7 },\n//         { \"x\": 1504029639539, \"y\": 6 }\n//         ],\n//         [{ \"x\": 1504029634400, \"y\": 7 },\n//         { \"x\": 1504029637959, \"y\": 7 },\n//         { \"x\": 1504029640317, \"y\": 7 }\n//         ]\n//     ],\n//     \"labels\":[\"\"]\n// }];\n// msg.payload = chart;\n\n// return msg;\n\n\n// var chart = [{\n//     \"series\":[\"Values\"],\n//     \"data\": [\n//         [{ \"x\": 1078970400000, \"y\": 11.2 },\n//         { \"x\": 1078977600000, \"y\": 11 }\n//         ]\n//     ],\n//     \"labels\":[\"\"]\n// }];\n// msg.payload = chart;\n\n// return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 580,
+        "wires": [
+            [
+                "c2bc503da2f965c7"
+            ]
+        ]
+    },
+    {
+        "id": "41b2fd5f8a43fc71",
+        "type": "function",
+        "z": "0ba6213ea7df46b0",
+        "name": "function 18",
+        "func": "const inp = msg.payload;\n\nvar outObj = [{\n    \"series\": [\"Values\"],\n    \"data\": [[]],\n    \"lables\": [\"\"]\n}];\n\n// fill chart object with data\nfor(let item of inp) {\n    outObj[0].data[0].push({\n        x: item.Time,\n        y: item.NO2GT\n    })\n}\n\nmsg.payload = outObj;\n\nreturn msg;\n\n\n\n\n// var chart = [{\n//     \"series\":[\"A\",\"B\",\"C\"],\n//     \"data\": [\n//         [{ \"x\": 1504029632890, \"y\": 5 },\n//         { \"x\": 1504029636001, \"y\": 4 },\n//         { \"x\": 1504029638656, \"y\": 2 }\n//         ],\n//         [{ \"x\": 1504029633514, \"y\": 6 },\n//         { \"x\": 1504029636622, \"y\": 7 },\n//         { \"x\": 1504029639539, \"y\": 6 }\n//         ],\n//         [{ \"x\": 1504029634400, \"y\": 7 },\n//         { \"x\": 1504029637959, \"y\": 7 },\n//         { \"x\": 1504029640317, \"y\": 7 }\n//         ]\n//     ],\n//     \"labels\":[\"\"]\n// }];\n// msg.payload = chart;\n\n// return msg;\n\n\n// var chart = [{\n//     \"series\":[\"Values\"],\n//     \"data\": [\n//         [{ \"x\": 1078970400000, \"y\": 11.2 },\n//         { \"x\": 1078977600000, \"y\": 11 }\n//         ]\n//     ],\n//     \"labels\":[\"\"]\n// }];\n// msg.payload = chart;\n\n// return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 620,
+        "wires": [
+            [
+                "cd458760b3f7d2e5"
+            ]
+        ]
+    },
+    {
+        "id": "4f292559b470e002",
+        "type": "function",
+        "z": "0ba6213ea7df46b0",
+        "name": "function 19",
+        "func": "const inp = msg.payload;\n\nvar outObj = [{\n    \"series\": [\"Values\"],\n    \"data\": [[]],\n    \"lables\": [\"\"]\n}];\n\n// fill chart object with data\nfor(let item of inp) {\n    outObj[0].data[0].push({\n        x: item.Time,\n        y: item.PT08S4NO2\n    })\n}\n\nmsg.payload = outObj;\n\nreturn msg;\n\n\n\n\n// var chart = [{\n//     \"series\":[\"A\",\"B\",\"C\"],\n//     \"data\": [\n//         [{ \"x\": 1504029632890, \"y\": 5 },\n//         { \"x\": 1504029636001, \"y\": 4 },\n//         { \"x\": 1504029638656, \"y\": 2 }\n//         ],\n//         [{ \"x\": 1504029633514, \"y\": 6 },\n//         { \"x\": 1504029636622, \"y\": 7 },\n//         { \"x\": 1504029639539, \"y\": 6 }\n//         ],\n//         [{ \"x\": 1504029634400, \"y\": 7 },\n//         { \"x\": 1504029637959, \"y\": 7 },\n//         { \"x\": 1504029640317, \"y\": 7 }\n//         ]\n//     ],\n//     \"labels\":[\"\"]\n// }];\n// msg.payload = chart;\n\n// return msg;\n\n\n// var chart = [{\n//     \"series\":[\"Values\"],\n//     \"data\": [\n//         [{ \"x\": 1078970400000, \"y\": 11.2 },\n//         { \"x\": 1078977600000, \"y\": 11 }\n//         ]\n//     ],\n//     \"labels\":[\"\"]\n// }];\n// msg.payload = chart;\n\n// return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 660,
+        "wires": [
+            [
+                "2343738abba4d21a"
+            ]
+        ]
+    },
+    {
+        "id": "369cba2d377a6e96",
+        "type": "function",
+        "z": "0ba6213ea7df46b0",
+        "name": "function 20",
+        "func": "const inp = msg.payload;\n\nvar outObj = [{\n    \"series\": [\"Values\"],\n    \"data\": [[]],\n    \"lables\": [\"\"]\n}];\n\n// fill chart object with data\nfor(let item of inp) {\n    outObj[0].data[0].push({\n        x: item.Time,\n        y: item.PT08S5O3\n    })\n}\n\nmsg.payload = outObj;\n\nreturn msg;\n\n\n\n\n// var chart = [{\n//     \"series\":[\"A\",\"B\",\"C\"],\n//     \"data\": [\n//         [{ \"x\": 1504029632890, \"y\": 5 },\n//         { \"x\": 1504029636001, \"y\": 4 },\n//         { \"x\": 1504029638656, \"y\": 2 }\n//         ],\n//         [{ \"x\": 1504029633514, \"y\": 6 },\n//         { \"x\": 1504029636622, \"y\": 7 },\n//         { \"x\": 1504029639539, \"y\": 6 }\n//         ],\n//         [{ \"x\": 1504029634400, \"y\": 7 },\n//         { \"x\": 1504029637959, \"y\": 7 },\n//         { \"x\": 1504029640317, \"y\": 7 }\n//         ]\n//     ],\n//     \"labels\":[\"\"]\n// }];\n// msg.payload = chart;\n\n// return msg;\n\n\n// var chart = [{\n//     \"series\":[\"Values\"],\n//     \"data\": [\n//         [{ \"x\": 1078970400000, \"y\": 11.2 },\n//         { \"x\": 1078977600000, \"y\": 11 }\n//         ]\n//     ],\n//     \"labels\":[\"\"]\n// }];\n// msg.payload = chart;\n\n// return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 700,
+        "wires": [
+            [
+                "ca34ba3c47c1b88d"
+            ]
+        ]
+    },
+    {
+        "id": "61741c8925b48861",
+        "type": "function",
+        "z": "0ba6213ea7df46b0",
+        "name": "function 21",
+        "func": "const inp = msg.payload;\n\nvar outObj = [{\n    \"series\": [\"Values\"],\n    \"data\": [[]],\n    \"lables\": [\"\"]\n}];\n\n// fill chart object with data\nfor(let item of inp) {\n    outObj[0].data[0].push({\n        x: item.Time,\n        y: item.RH\n    })\n}\n\nmsg.payload = outObj;\n\nreturn msg;\n\n\n\n\n// var chart = [{\n//     \"series\":[\"A\",\"B\",\"C\"],\n//     \"data\": [\n//         [{ \"x\": 1504029632890, \"y\": 5 },\n//         { \"x\": 1504029636001, \"y\": 4 },\n//         { \"x\": 1504029638656, \"y\": 2 }\n//         ],\n//         [{ \"x\": 1504029633514, \"y\": 6 },\n//         { \"x\": 1504029636622, \"y\": 7 },\n//         { \"x\": 1504029639539, \"y\": 6 }\n//         ],\n//         [{ \"x\": 1504029634400, \"y\": 7 },\n//         { \"x\": 1504029637959, \"y\": 7 },\n//         { \"x\": 1504029640317, \"y\": 7 }\n//         ]\n//     ],\n//     \"labels\":[\"\"]\n// }];\n// msg.payload = chart;\n\n// return msg;\n\n\n// var chart = [{\n//     \"series\":[\"Values\"],\n//     \"data\": [\n//         [{ \"x\": 1078970400000, \"y\": 11.2 },\n//         { \"x\": 1078977600000, \"y\": 11 }\n//         ]\n//     ],\n//     \"labels\":[\"\"]\n// }];\n// msg.payload = chart;\n\n// return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 740,
+        "wires": [
+            [
+                "034c91886f8090ba"
+            ]
+        ]
+    },
+    {
+        "id": "18a37b872371db51",
+        "type": "ui_chart",
+        "z": "0ba6213ea7df46b0",
+        "name": "",
+        "group": "6179f83d53ba0d72",
+        "order": 4,
+        "width": "9",
+        "height": "4",
+        "label": "NMHC(GT)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "YYYY-MM-DD HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "No data available",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "4",
+        "removeOlderPoints": "96",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 650,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8d935e89a41d2235",
+        "type": "ui_chart",
+        "z": "0ba6213ea7df46b0",
+        "name": "",
+        "group": "6179f83d53ba0d72",
+        "order": 4,
+        "width": "9",
+        "height": "4",
+        "label": "C6H6(GT)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "YYYY-MM-DD HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "No data available",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "4",
+        "removeOlderPoints": "96",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 640,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2a42bba0779b565d",
+        "type": "ui_chart",
+        "z": "0ba6213ea7df46b0",
+        "name": "",
+        "group": "6179f83d53ba0d72",
+        "order": 4,
+        "width": "9",
+        "height": "4",
+        "label": "PT08.S2(NMHC)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "YYYY-MM-DD HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "No data available",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "4",
+        "removeOlderPoints": "96",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 660,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a14c210ac12da5fe",
+        "type": "ui_chart",
+        "z": "0ba6213ea7df46b0",
+        "name": "",
+        "group": "6179f83d53ba0d72",
+        "order": 4,
+        "width": "9",
+        "height": "4",
+        "label": "NOx(GT)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "YYYY-MM-DD HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "No data available",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "4",
+        "removeOlderPoints": "96",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 640,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c2bc503da2f965c7",
+        "type": "ui_chart",
+        "z": "0ba6213ea7df46b0",
+        "name": "",
+        "group": "6179f83d53ba0d72",
+        "order": 4,
+        "width": "9",
+        "height": "4",
+        "label": "PT08.S3(NOx)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "YYYY-MM-DD HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "No data available",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "4",
+        "removeOlderPoints": "96",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 660,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cd458760b3f7d2e5",
+        "type": "ui_chart",
+        "z": "0ba6213ea7df46b0",
+        "name": "",
+        "group": "6179f83d53ba0d72",
+        "order": 4,
+        "width": "9",
+        "height": "4",
+        "label": "NO2(GT)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "YYYY-MM-DD HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "No data available",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "4",
+        "removeOlderPoints": "96",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 640,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2343738abba4d21a",
+        "type": "ui_chart",
+        "z": "0ba6213ea7df46b0",
+        "name": "",
+        "group": "6179f83d53ba0d72",
+        "order": 4,
+        "width": "9",
+        "height": "4",
+        "label": "PT08.S4(NO2)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "YYYY-MM-DD HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "No data available",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "4",
+        "removeOlderPoints": "96",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 660,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ca34ba3c47c1b88d",
+        "type": "ui_chart",
+        "z": "0ba6213ea7df46b0",
+        "name": "",
+        "group": "6179f83d53ba0d72",
+        "order": 4,
+        "width": "9",
+        "height": "4",
+        "label": "PT08.S5(O3)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "YYYY-MM-DD HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "No data available",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "4",
+        "removeOlderPoints": "96",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 650,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "034c91886f8090ba",
+        "type": "ui_chart",
+        "z": "0ba6213ea7df46b0",
+        "name": "",
+        "group": "6179f83d53ba0d72",
+        "order": 4,
+        "width": "9",
+        "height": "4",
+        "label": "RH",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "YYYY-MM-DD HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "No data available",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "4",
+        "removeOlderPoints": "96",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 630,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "28a6c2d82c99cfcb",
+        "type": "function",
+        "z": "0ba6213ea7df46b0",
+        "name": "AH",
+        "func": "let result = [];\n\nfunction getUnix(date, time) {\n\n    const [month, day, year] = date.split('/').map(num => parseInt(num, 10));\n\n    // Split the time into its components (HH:MM:SS)\n    const [hours, minutes, seconds] = time.split(':').map(num => parseInt(num, 10));\n\n    // Use Date.UTC to create a Date object in UTC based on the date and time components\n    const dateObject = new Date(Date.UTC(year, day - 1, month, hours, minutes, seconds));\n\n    // Get the Unix timestamp (in seconds)\n    // return Math.floor(dateObject.getTime() / 1000);\n    return dateObject.getTime();\n}\n\nmsg.payload.forEach(item => {\n    item.Time = item.Time.replace(\".\", \":\")\n    item.Time = item.Time.replace(\".\", \":\")\n    var time = getUnix(item.Date, item.Time)\n    let filteredItem = {\n        AH: parseFloat(item.AH),\n        Time: time\n    };\n    result.push(filteredItem);\n});\n\nmsg.payload = result; \nconsole.log(result)\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 780,
+        "wires": [
+            [
+                "b35c48ea3fef1f08"
+            ]
+        ]
+    },
+    {
+        "id": "b35c48ea3fef1f08",
+        "type": "function",
+        "z": "0ba6213ea7df46b0",
+        "name": "function 2",
+        "func": "const inp = msg.payload;\n\nvar outObj = [{\n    \"series\": [\"Values\"],\n    \"data\": [[]],\n    \"lables\": [\"\"]\n}];\n\n// fill chart object with data\nfor(let item of inp) {\n    outObj[0].data[0].push({\n        x: item.Time,\n        y: item.AH\n    })\n}\n\nmsg.payload = outObj;\n\nreturn msg;\n\n\n\n\n// var chart = [{\n//     \"series\":[\"A\",\"B\",\"C\"],\n//     \"data\": [\n//         [{ \"x\": 1504029632890, \"y\": 5 },\n//         { \"x\": 1504029636001, \"y\": 4 },\n//         { \"x\": 1504029638656, \"y\": 2 }\n//         ],\n//         [{ \"x\": 1504029633514, \"y\": 6 },\n//         { \"x\": 1504029636622, \"y\": 7 },\n//         { \"x\": 1504029639539, \"y\": 6 }\n//         ],\n//         [{ \"x\": 1504029634400, \"y\": 7 },\n//         { \"x\": 1504029637959, \"y\": 7 },\n//         { \"x\": 1504029640317, \"y\": 7 }\n//         ]\n//     ],\n//     \"labels\":[\"\"]\n// }];\n// msg.payload = chart;\n\n// return msg;\n\n\n// var chart = [{\n//     \"series\":[\"Values\"],\n//     \"data\": [\n//         [{ \"x\": 1078970400000, \"y\": 11.2 },\n//         { \"x\": 1078977600000, \"y\": 11 }\n//         ]\n//     ],\n//     \"labels\":[\"\"]\n// }];\n// msg.payload = chart;\n\n// return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 780,
+        "wires": [
+            [
+                "c1a24f3de3a853bf"
+            ]
+        ]
+    },
+    {
+        "id": "c1a24f3de3a853bf",
+        "type": "ui_chart",
+        "z": "0ba6213ea7df46b0",
+        "name": "",
+        "group": "6179f83d53ba0d72",
+        "order": 4,
+        "width": "9",
+        "height": "4",
+        "label": "AH",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "YYYY-MM-DD HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "No data available",
+        "dot": true,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "4",
+        "removeOlderPoints": "96",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 630,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "196c6e0ad2bc5c25",
+        "type": "inject",
+        "z": "0ba6213ea7df46b0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 180,
+        "wires": [
+            [
+                "b8e07a089af90dad",
+                "bf50643ec3f911c1"
+            ]
+        ]
+    },
+    {
+        "id": "2f429155bf16356c",
+        "type": "link out",
+        "z": "0ba6213ea7df46b0",
+        "name": "auto-trigger",
+        "mode": "link",
+        "links": [
+            "77cbd2d1d1684fcc"
+        ],
+        "x": 145,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "bf50643ec3f911c1",
+        "type": "link out",
+        "z": "0ba6213ea7df46b0",
+        "name": "manual-trigger",
+        "mode": "link",
+        "links": [
+            "536131d7b4fafe79"
+        ],
+        "x": 145,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "b43534663c8b1c77",
+        "type": "function",
+        "z": "977bd9e3d8d59482",
+        "name": "Temperature",
+        "func": "let result = [];\n\nfunction getUnix(date, time) {\n\n    const [month, day, year] = date.split('/').map(num => parseInt(num, 10));\n\n    // Split the time into its components (HH:MM:SS)\n    const [hours, minutes, seconds] = time.split(':').map(num => parseInt(num, 10));\n\n    // Use Date.UTC to create a Date object in UTC based on the date and time components\n    const dateObject = new Date(Date.UTC(year, day - 1, month, hours, minutes, seconds));\n\n    // Get the Unix timestamp (in seconds)\n    // return Math.floor(dateObject.getTime() / 1000);\n    return dateObject.getTime();\n}\n\nmsg.payload.forEach(item => {\n    item.Time = item.Time.replace(\".\", \":\")\n    item.Time = item.Time.replace(\".\", \":\")\n    var time = getUnix(item.Date, item.Time)\n    let filteredItem = {\n        T: parseFloat(item[\"T\"]),\n        T_pred: parseFloat(item[\"T_predicted\"]),\n        Time: time\n    };\n    result.push(filteredItem);\n});\n\nmsg.payload = result; \nconsole.log(result)\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 260,
+        "wires": [
+            [
+                "0d440ac29b2e76da"
+            ]
+        ]
+    },
+    {
+        "id": "0d440ac29b2e76da",
+        "type": "function",
+        "z": "977bd9e3d8d59482",
+        "name": "function 4",
+        "func": "const inp = msg.payload;\n\nvar outObj = [{\n    \"series\": [\"Values\", \"Predicted\"],\n    \"data\": [[], []],\n    \"lables\": [\"\"]\n}];\n\n// fill chart object with data\nfor (let item of inp) {\n    outObj[0].data[0].push({\n        x: item.Time,\n        y: item.T\n    })\n    outObj[0].data[1].push({\n        x: item.Time,\n        y: item.T_pred\n    })\n}\n\nmsg.payload = outObj;\n\nreturn msg;\n\n\n\n\n// var chart = [{\n//     \"series\":[\"A\",\"B\",\"C\"],\n//     \"data\": [\n//         [{ \"x\": 1504029632890, \"y\": 5 },\n//         { \"x\": 1504029636001, \"y\": 4 },\n//         { \"x\": 1504029638656, \"y\": 2 }\n//         ],\n//         [{ \"x\": 1504029633514, \"y\": 6 },\n//         { \"x\": 1504029636622, \"y\": 7 },\n//         { \"x\": 1504029639539, \"y\": 6 }\n//         ],\n//         [{ \"x\": 1504029634400, \"y\": 7 },\n//         { \"x\": 1504029637959, \"y\": 7 },\n//         { \"x\": 1504029640317, \"y\": 7 }\n//         ]\n//     ],\n//     \"labels\":[\"\"]\n// }];\n// msg.payload = chart;\n\n// return msg;\n\n\n// var chart = [{\n//     \"series\":[\"Values\"],\n//     \"data\": [\n//         [{ \"x\": 1078970400000, \"y\": 11.2 },\n//         { \"x\": 1078977600000, \"y\": 11 }\n//         ]\n//     ],\n//     \"labels\":[\"\"]\n// }];\n// msg.payload = chart;\n\n// return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 260,
+        "wires": [
+            [
+                "3387f932ff56dd5c"
+            ]
+        ]
+    },
+    {
+        "id": "e90e2faddf34de3b",
+        "type": "function",
+        "z": "977bd9e3d8d59482",
+        "name": "C6H6(GT)",
+        "func": "let result = [];\n\nfunction getUnix(date, time) {\n\n    const [month, day, year] = date.split('/').map(num => parseInt(num, 10));\n\n    // Split the time into its components (HH:MM:SS)\n    const [hours, minutes, seconds] = time.split(':').map(num => parseInt(num, 10));\n\n    // Use Date.UTC to create a Date object in UTC based on the date and time components\n    const dateObject = new Date(Date.UTC(year, day - 1, month, hours, minutes, seconds));\n\n    // Get the Unix timestamp (in seconds)\n    // return Math.floor(dateObject.getTime() / 1000);\n    return dateObject.getTime();\n}\n\nmsg.payload.forEach(item => {\n    item.Time = item.Time.replace(\".\", \":\")\n    item.Time = item.Time.replace(\".\", \":\")\n    var time = getUnix(item.Date, item.Time)\n    let filteredItem = {\n        C6H6GT: parseFloat(item[\"C6H6(GT)\"]),\n        C6H6GT_pred: parseFloat(item[\"C6H6(GT)_predicted\"]),\n        Time: time\n    };\n    result.push(filteredItem);\n});\n\nmsg.payload = result; \nconsole.log(result)\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 300,
+        "wires": [
+            [
+                "f249dd04a0771769"
+            ]
+        ]
+    },
+    {
+        "id": "f249dd04a0771769",
+        "type": "function",
+        "z": "977bd9e3d8d59482",
+        "name": "function 8",
+        "func": "const inp = msg.payload;\n\nvar outObj = [{\n    \"series\": [\"Values\", \"Predicted\"],\n    \"data\": [[],[]],\n    \"lables\": [\"\"]\n}];\n\n// fill chart object with data\nfor(let item of inp) {\n    outObj[0].data[0].push({\n        x: item.Time,\n        y: item.C6H6GT\n    })\n    outObj[0].data[1].push({\n        x: item.Time,\n        y: item.C6H6GT_pred\n    })\n}\n\nmsg.payload = outObj;\n\nreturn msg;\n\n\n\n\n// var chart = [{\n//     \"series\":[\"A\",\"B\",\"C\"],\n//     \"data\": [\n//         [{ \"x\": 1504029632890, \"y\": 5 },\n//         { \"x\": 1504029636001, \"y\": 4 },\n//         { \"x\": 1504029638656, \"y\": 2 }\n//         ],\n//         [{ \"x\": 1504029633514, \"y\": 6 },\n//         { \"x\": 1504029636622, \"y\": 7 },\n//         { \"x\": 1504029639539, \"y\": 6 }\n//         ],\n//         [{ \"x\": 1504029634400, \"y\": 7 },\n//         { \"x\": 1504029637959, \"y\": 7 },\n//         { \"x\": 1504029640317, \"y\": 7 }\n//         ]\n//     ],\n//     \"labels\":[\"\"]\n// }];\n// msg.payload = chart;\n\n// return msg;\n\n\n// var chart = [{\n//     \"series\":[\"Values\"],\n//     \"data\": [\n//         [{ \"x\": 1078970400000, \"y\": 11.2 },\n//         { \"x\": 1078977600000, \"y\": 11 }\n//         ]\n//     ],\n//     \"labels\":[\"\"]\n// }];\n// msg.payload = chart;\n\n// return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 300,
+        "wires": [
+            [
+                "72696b0d4fdab380"
+            ]
+        ]
+    },
+    {
+        "id": "3387f932ff56dd5c",
+        "type": "ui_chart",
+        "z": "977bd9e3d8d59482",
+        "name": "",
+        "group": "aa3084a8a3baa6ae",
+        "order": 1,
+        "width": "9",
+        "height": "4",
+        "label": "Temperature",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "YYYY-MM-DD HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "96",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 670,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "72696b0d4fdab380",
+        "type": "ui_chart",
+        "z": "977bd9e3d8d59482",
+        "name": "",
+        "group": "aa3084a8a3baa6ae",
+        "order": 5,
+        "width": "9",
+        "height": "4",
+        "label": "C6H6(GT)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "YYYY-MM-DD HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "96",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 660,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "191095a02850c326",
+        "type": "http request",
+        "z": "977bd9e3d8d59482",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://127.0.0.1:5588/data/h6ch",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 110,
+        "y": 300,
+        "wires": [
+            [
+                "e90e2faddf34de3b"
+            ]
+        ]
+    },
+    {
+        "id": "9308b2c8de413061",
+        "type": "http request",
+        "z": "977bd9e3d8d59482",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://127.0.0.1:5588/data/t",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 110,
+        "y": 260,
+        "wires": [
+            [
+                "b43534663c8b1c77"
+            ]
+        ]
+    },
+    {
+        "id": "77cbd2d1d1684fcc",
+        "type": "link in",
+        "z": "977bd9e3d8d59482",
+        "name": "link in 1",
+        "links": [
+            "2f429155bf16356c"
+        ],
+        "x": 55,
+        "y": 200,
+        "wires": [
+            [
+                "9308b2c8de413061",
+                "191095a02850c326"
+            ]
+        ]
+    },
+    {
+        "id": "536131d7b4fafe79",
+        "type": "link in",
+        "z": "977bd9e3d8d59482",
+        "name": "link in 2",
+        "links": [
+            "bf50643ec3f911c1"
+        ],
+        "x": 55,
+        "y": 360,
+        "wires": [
+            [
+                "9308b2c8de413061",
+                "191095a02850c326"
+            ]
+        ]
+    }
+]
